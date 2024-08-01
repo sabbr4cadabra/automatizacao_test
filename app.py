@@ -1,16 +1,16 @@
 import pyautogui
 from time import sleep      #pausa a execução por alguns segundos
-from mouseinfo import mouseInfo  #escrever no terminal e depois mouseInfo(
+from mouseinfo import mouseInfo  #escrever no terminal e depois mouseInfo()
 
 
 # passos manuais para realizar o processo
 #1. clicar e digitar meu usuario
 pyautogui.click(673,384, duration=2)
-pyautogui.write("louyse")
+pyautogui.write("seu_usuario_no_app")
 
 # 2. clicar e digitar minha senha
 pyautogui.click(676,410, duration=2)
-pyautogui.write('1234')
+pyautogui.write('sua_senha_no_app')
 
 # 3. clicar em entrar
 pyautogui.click(587,441, duration=2)
